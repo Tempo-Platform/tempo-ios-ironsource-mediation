@@ -1,0 +1,4 @@
+framework module tempo_ironsource_mediation {
+    umbrella header "tempo-umbrella.h"
+    export *
+}
