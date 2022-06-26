@@ -14,7 +14,8 @@ Pod::Spec.new do |spec|
   
   spec.platform     = :ios, "10.0"
   spec.source       = { :git => "https://github.com/Tempo-Platform/tempo-ios-ironsource-mediation.git", :tag => spec.version.to_s }
-  spec.source_files = "TempoIronSourceMediation/*.*"
+  spec.source_files = "TempoIronSourceMediation/*.swift"
+  spec.source_files = "TempoIronSourceMediation/*.modulemap"
 #  spec.module_map   = "TempoIronSourceMediation/tempo.modulemap"
   
   spec.frameworks   = "Foundation", "UIKit"
